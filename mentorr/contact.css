@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  padding-bottom: 15px;
+}
+.logo h1 {
+  color: #5fcf80;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.items {
+  display: flex;
+  gap: 25px;
+}
+.items ul {
+  display: flex;
+  gap: 25px;
+}
+.items ul li {
+  font-weight: 500;
+  transition: 0.3s;
+  font-size: 15px;
+}
+.items ul li a {
+  color: #37423b;
+  cursor: pointer;
+}
+.items ul li a {
+  text-decoration: none;
+}
+.items ul li a:hover {
+  color: #5fcf80;
+}
+.items button {
+  color: white;
+  background-color: #5fcf80;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+.items button:hover {
+  cursor: pointer;
+}
+#contactus {
+  margin-bottom: 5px;
+  padding: 103px 12px 30px;
+  background-color: #5fcf80;
+  color: #ffffff;
+  text-align: center;
+}
+#contactus h1 {
+  font-family: "Raleway";
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+#contactus p {
+  font-size: 15px;
+  padding: 0 13%;
+  font-family: "Open Sans";
+}
+.topitems {
+  display: flex;
+  justify-content: space-around;
+  gap: 90px;
+}
+.topfooter {
+  padding: 60px 0 30px;
+  background-color: #f9faf9;
+}
+.itemmentor {
+  margin-bottom: 10px;
+}
+.itemmentor h3 {
+  font-size: 28px;
+  font-family: "Raleway";
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.itemmentor .adress {
+  width: 150px;
+  margin-bottom: 30px;
+  color: #777;
+  font-family: "Open Sans";
+  font-size: 15px;
+}
+.itemmentor p {
+  color: #777;
+  font-family: "Open Sans";
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+.itemlink {
+  margin-bottom: 10px;
+}
+.itemlink h4 {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Raleway";
+  margin-bottom: 8px;
+}
+.itemlink ul li {
+  padding: 5px 0;
+  font-size: 14px;
+}
+.itemlink ul li a {
+  color: #777;
+  font-family: "Open Sans";
+  text-decoration: none;
+}
+.itemlink ul li a:hover {
+  color: #5fcf80;
+}
+.itemlink ul li a i {
+  font-size: 10px;
+  color: #5fcf80;
+  font-weight: 900;
+  padding-right: 5px;
+}
+.itemservices {
+  margin-bottom: 10px;
+}
+.itemservices h4 {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Raleway";
+  margin-bottom: 8px;
+}
+.itemservices ul li {
+  padding: 5px 0;
+  font-size: 14px;
+}
+.itemservices ul li a {
+  color: #777;
+  font-family: "Open Sans";
+  text-decoration: none;
+}
+.itemservices ul li a:hover {
+  color: #5fcf80;
+}
+
+.itemservices ul li a i {
+  font-size: 10px;
+  color: #5fcf80;
+  font-weight: 900;
+  padding-right: 5px;
+}
+.itemletter {
+  margin-bottom: 10px;
+}
+.itemletter h4 {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Raleway";
+  margin-bottom: 8px;
+}
+.itemletter p {
+  font-family: "Open Sans";
+  font-size: 15px;
+  color: #777;
+}
+.itemletter form {
+  position: relative;
+}
+.itemletter input {
+  border: 1px solid #e0e5e2;
+  margin-top: 30px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  padding: 6px 10px;
+  outline: none;
+}
+.itemletter button {
+  border: none;
+  border-radius: 50px;
+  background-color: #5fcf80;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 8px 25px;
+  transition: 0.3s;
+  position: absolute;
+  bottom: 0;
+  left: 155px;
+}
+.bottomfooter {
+  background-color: #eef0ef;
+  padding: 20px 0;
+}
+
+.bottomitem {
+  display: flex;
+  justify-content: space-between;
+}
+.copy {
+  font-family: "Open Sans";
+  font-size: 15px;
+  margin: 0;
+}
+.copy p {
+  font-family: "Open Sans";
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 3px;
+}
+.copy p span {
+  color: #5fcf80;
+}
+.bottomitem ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 220px;
+  height: 36px;
+}
+.bottomitem ul li a {
+  transition: 0.3s;
+  background-color: #5fcf80;
+  color: #ffffff;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+
+.bottomitem ul li a i {
+  font-weight: 400;
+}
+.contacformdivs {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.contactitem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  gap: 50px;
+}
+.adress,
+.email,
+.call {
+  display: flex;
+  gap: 8px;
+}
+.adress .conicon i {
+  transition: 0.3s;
+  color: #5fcf80;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ecf9f0;
+}
+.adressinfo {
+  display: flex;
+  flex-direction: column;
+}
+.adressinfo h4 {
+  font-size: 22px;
+  font-family: "Raleway";
+  color: #37423b;
+  margin-bottom: 3px;
+}
+.adressinfo p {
+  font-size: 14px;
+  color: #657a6d;
+  font-family: "Open Sans";
+}
+.email .emailicon i {
+  transition: 0.3s;
+  color: #5fcf80;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ecf9f0;
+}
+.emailinfo {
+  display: flex;
+  flex-direction: column;
+}
+.emailinfo h4 {
+  font-size: 22px;
+  font-family: "Raleway";
+  color: #37423b;
+  margin-bottom: 3px;
+}
+.emailinfo p {
+  font-size: 14px;
+  color: #657a6d;
+  font-family: "Open Sans";
+}
+.call .callicon i {
+  transition: 0.3s;
+  color: #5fcf80;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ecf9f0;
+}
+.callinfo {
+  display: flex;
+  flex-direction: column;
+}
+.callinfo h4 {
+  font-size: 22px;
+  font-family: "Raleway";
+  color: #37423b;
+  margin-bottom: 3px;
+}
+.callinfo p {
+  font-size: 14px;
+  color: #657a6d;
+  font-family: "Open Sans";
+}
+.contacttable input {
+  color: #444;
+  width: 100%;
+  height: 100%;
+  padding: 6px 12px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
