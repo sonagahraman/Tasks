@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 30px;
+  text-align: center;
+}
+.card1 {
+  display: grid;
+  height: 500px;
+  width: 100px;
+  grid-template-areas:
+    "header"
+    "menu"
+    "hero"
+    "main"
+    "banner"
+    "extra"
+    "image";
+    grid-template-rows: 1fr 1fr 2.2fr 2fr 1.7fr 1.7fr 1.7fr;
+}
+.card2 {
+  display: grid;
+  height: 500px;
+  width: 300px;
+  
+  grid-template-areas:
+    "header header header header"
+    "hero hero hero hero"
+    "hero hero hero hero"
+    "hero hero hero hero"
+    "menu main main main"
+    "menu main main main"
+    "menu banner banner banner"
+    "menu extra extra image";
+}
+.card3{
+    display: grid;
+    height: 500px;
+    width: 500px;
+    grid-template-areas: "header menu menu"
+                          "hero hero hero"
+                          "hero hero hero"
+                          "hero hero hero"
+                          "hero hero hero"
+                          "main bosluq image"
+                          "main bosluq image"
+                          "main bosluq extra"
+                          "main bosluq extra"
+                          "banner banner banner"
+                          "banner banner banner";
+}
+.header {
+  background-color: black;
+  grid-area: header;
+}
+.menu {
+  background-color: red;
+  grid-area: menu;
+}
+.hero {
+  background-color: rgb(56, 56, 236);
+  grid-area: hero;
+}
+.main {
+  background-color: rgb(2, 2, 98);
+  grid-area: main;
+}
+.banner {
+  background-color: yellow;
+  grid-area: banner;
+}
+.extra {
+  background-color: green;
+  grid-area: extra;
+}
+.image {
+  background-color: grey;
+  grid-area: image;
+}
+.bosluq{
+    background-color: white;
+    grid-area: bosluq;
+}
+.child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
