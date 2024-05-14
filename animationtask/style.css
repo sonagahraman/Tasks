@@ -1,0 +1,90 @@
+.animation {
+  width: 500px;
+  height: 600px;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.cloud {
+  background: linear-gradient(rgb(241, 241, 247), rgb(3, 5, 141));
+  position: relative;
+}
+.cloud .cloud1 {
+  width: 55px;
+  height: 26px;
+  background: url("/images/WhatsApp_Image_2024-05-13_at_16.19.52__1_-removebg-preview.png");
+  animation-name: cloud1ani;
+  animation-iteration-count: infinite;
+  animation-duration: 24s;
+}
+.cloud .cloud2 {
+  width: 83px;
+  height: 44px;
+  background: url("/images/WhatsApp_Image_2024-05-13_at_16.19.52__1_-removebg-preview.png") -68px
+    0;
+  animation-name: cloud2ani;
+  animation-iteration-count: infinite;
+  animation-duration: 26s;
+}
+.cloud .cloud3 {
+  width: 117px;
+  height: 46px;
+  background: url("./images/WhatsApp_Image_2024-05-13_at_16.19.52__1_-removebg-preview.png")-10px -55px;
+  animation-name: cloud3ani;
+  animation-iteration-count: infinite;
+  animation-duration: 28s;
+}
+.ship {
+  background-color: blue;
+  height: 200px;
+  position: relative;
+}
+.shipdiv {
+  animation-name: shipani;
+  animation-iteration-count: infinite;
+  animation-duration: 24s;
+  animation-direction: alternate;
+  position: absolute;
+  top: -16px;
+}
+.shipitem {
+  position: absolute;
+  top: 100px;
+  left: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes cloud1ani {
+  from {
+    transform: translateX(500px);
+  }
+  to {
+    transform: translateX(-140px);
+  }
+}
+@keyframes cloud2ani {
+  from {
+    transform: translateX(500px);
+  }
+  to {
+    transform: translateX(-140px);
+  }
+}
+@keyframes cloud3ani {
+  from {
+    transform: translateX(500px);
+  }
+  to {
+    transform: translateX(-140px);
+  }
+}
+@keyframes shipani {
+  from {
+    transform: translateX(480px);
+  }
+  to {
+    transform: translateX(-100px);
+  }
+}
